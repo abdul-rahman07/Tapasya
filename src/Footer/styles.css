@@ -1,0 +1,66 @@
+/* Group 2087328926 */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+
+p {
+  margin: 0;
+}
+
+.group-2087328926 {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background-color: rgba(85, 20, 20, 1);
+}
+.group-427 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+}
+.terms-conditions-priva {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.copyrights-2024-all-rig {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .group-2087328926 {
+    padding: 20px;
+  }
+  .terms-conditions-priva,
+  .copyrights-2024-all-rig {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .group-2087328926 {
+    padding: 15px;
+  }
+  .group-427 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    height: 100%;
+  }
+  .terms-conditions-priva,
+  .copyrights-2024-all-rig {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+}

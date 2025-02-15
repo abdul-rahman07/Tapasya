@@ -1,0 +1,37 @@
+.navbar {
+    background-color: #4b1f1f; // Dark red background
+  }
+  
+  .nav-link {
+    color: #fff !important; // White text for nav links
+    font-weight: 500;
+    margin-right: 15px;
+  
+    &:hover {
+      color: #f8d7da !important; // Lighter red on hover
+    }
+  }
+  
+  .btn-login {
+    background-color: #F8F3E0 !important; // Light button
+    color: #4b1f1f;
+    font-weight: 600;
+    border-radius: 5px;
+  
+    &:hover {
+      background-color: #eaeaea;
+    }
+  }
+  
+  .btn-signup {
+    background-color: #F8F3E0 !important; // Dark red button
+    color: #4b1f1f !important;
+    border: 1px solid #fff;
+    font-weight: 600;
+    border-radius: 5px;
+  
+    &:hover {
+      background-color: #6a2c2c; // Slightly lighter red
+    }
+  }
+  

@@ -1,0 +1,305 @@
+.container-testimonials{
+    background-color: #ECDFC3;
+    padding: 80px;
+
+    .top-right-circle{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: #998460;
+        position: absolute;
+        top: -90px;
+        right: -90px;
+    }
+
+    .bottom-left-circle{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: #998460;
+        position: absolute;
+        bottom: -40px;
+        left: -40px;
+    }
+
+    .card-container{
+        width: 1115px;
+        margin: 0px auto;
+
+        .heading{
+            font-size: 60px;
+            font-weight: 600;
+            color: #4C4842;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+    }
+}
+.testimonial-card {
+    position: relative;
+    width: 320px;
+    padding: 20px;
+    border-radius: 30px;
+    background: #EAE6D7;
+    //box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1), -10px -10px 30px rgba(255, 255, 255, 0.8);
+    text-align: center;
+
+    .bottom-circle{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: #9C7736;
+        position: absolute;
+        bottom: -40px;
+        left: -40px;
+    }
+
+    .bottom-blur-circle{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background: #9C7736;
+        position: absolute;
+        bottom: -40px;
+        right: -20px;
+        filter: blur(80px);
+    }
+
+    .circle-right{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: #DDCBA4;
+        position: absolute;
+        top: -90px;
+        right:-90px;
+
+        .inner-circle-right{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 1px solid #a7906c;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            left: 50px;
+            bottom:45px;
+    
+
+            .small-inner-circle{
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background: black;
+            }
+        }
+    }
+
+    .circle-left{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: #947645;
+        position: absolute;
+        top: 90px;
+        left:-70px;
+        }
+
+
+        .outer-profile-circle{
+            width: 147px;
+            height: 147px;
+            border-radius: 50%;
+            background: #EAE1C9;
+            box-shadow: -10px 0 20px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 80px 0px 0px 0px;
+
+            .inner-profile-circle{
+                width: 117px;
+                height: 117px;
+                border-radius: 50%;
+                background: #D0BA8D;
+                box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 100px;
+                    height: 100px;
+                    object-fit: cover;
+                    object-position: top;
+                }
+            }
+        }
+
+    .title {
+        font-size: 24px;
+        color: #333;
+        margin: 10px 0 10px;
+      }
+      
+      .description {
+        font-size: 14px;
+        color: #666;
+        line-height: 1.6;
+        margin: 10px 0 20px;
+      }
+      
+      .stars {
+        font-size: 40px;
+        color: #A48C5C;
+        margin-bottom: 20px;
+      }
+      
+      .selector {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 80px;
+      }
+      
+      .selector .dot:nth-child(1) {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #F0E5C2;
+        border: 0.2px solid #A48C5C;
+      }
+      .selector .dot:nth-child(2) {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #443B2F;
+      }
+      .selector .dot:nth-child(3) {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #D5BE88;
+      }
+      .selector .dot:nth-child(4) {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #C6A66E;
+      }
+      .selector .dot:nth-child(5) {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #09131A;
+      }
+    
+  }
+
+  @media (min-width: 992px) and (max-width: 1400px) {
+    .container-testimonials {
+      padding: 70px;
+      
+      .card-container {
+        width: 95%;
+        
+        .heading {
+          font-size: 55px;
+        }
+      }
+    }
+    
+    .testimonial-card {
+      width: 300px;
+      padding: 18px;
+      
+      .title {
+        font-size: 23px;
+      }
+      
+      .description {
+        font-size: 13.5px;
+      }
+      
+      .stars {
+        font-size: 38px;
+      }
+      
+      .selector .dot {
+        width: 38px;
+        height: 38px;
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 992px) {
+    .container-testimonials {
+      padding: 60px;
+      
+      .card-container {
+        width: 90%;
+        
+        .heading {
+          font-size: 50px;
+        }
+      }
+    }
+    
+    .testimonial-card {
+      width: 280px;
+      padding: 15px;
+      
+      .title {
+        font-size: 22px;
+      }
+      
+      .description {
+        font-size: 13px;
+      }
+      
+      .stars {
+        font-size: 35px;
+      }
+      
+      .selector .dot {
+        width: 35px;
+        height: 35px;
+      }
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    .container-testimonials {
+      padding: 40px;
+      
+      .card-container {
+        width: 100%;
+        
+        .heading {
+          font-size: 40px;
+        }
+      }
+    }
+    
+    .testimonial-card {
+      width: 100%;
+      padding: 10px;
+      
+      .title {
+        font-size: 20px;
+      }
+      
+      .description {
+        font-size: 12px;
+      }
+      
+      .stars {
+        font-size: 30px;
+      }
+      
+      .selector .dot {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
