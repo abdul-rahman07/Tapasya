@@ -7,6 +7,7 @@ import Testimonials from "../Testimonials/Testimonials";
 import Form from "../Form/Form";
 import Footer from "../Footer/Footer";
 import HeroImage from "../assets/HeroImage.jpg";
+import AboutTapasya from "../About/AboutTapasya";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <div className="hero-image">
         <img src={HeroImage} alt="Hero" style={{width:'100%', height:'550px', objectFit:'cover'}}/>
       </div>
+      <AboutTapasya/>
       <Courses />
       <AboutUs />
       <Values />

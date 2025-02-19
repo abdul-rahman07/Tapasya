@@ -343,4 +343,66 @@
       }
     }
   }
+
+  //About Tapasya
+
+  .aboutTapasyaContainer{
+    width: 100%;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .backgroundImageContainer{
+      width: 70%;
+      background-image: url('../assets/HeroImage.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 16px;
+      
+      .contentDivContainer{
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 24px;
+        padding: 40px 0px;
+        .logoDiv{
+          display: flex;
+          justify-content: center;
+          align-items: start;
+          gap: 20px;
+          height: 100px;
+          .logoImage{
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+          }
+          .logoTextImage{
+            width: 250px;
+            margin-top: 16px;
+          }
+        }
+        .contentDiv{
+          color: white;
+          font-size: 16px;
+          line-height: 24px;
+          text-align: center;
+          width: 65%;
+        }
+      }
+    }
+  }
   

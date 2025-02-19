@@ -20,8 +20,8 @@ const Values = () => {
                 <div className="point-1">
                    <div className="d-flex flex-column align-items-center">
                    <img className="heading-img" src={pointsImage} alt="heart-health" />
-                    <p className="heading">Technical Precision</p>
-                    <p className="content">Perfecting movements and gestures for flawless execution.</p>
+                    <p className="heading">Unlocking Potential</p>
+                    <p className="content">We strive to unlock the full potential of every dancer by creating an environment that honors traditional dance forms.</p>
                    </div>
                     <div className="outer-round">
                         <div className="inner-round"></div>
@@ -30,8 +30,8 @@ const Values = () => {
                 <div className="point-2">
                    <div className="d-flex flex-column align-items-center">
                    <img className="heading-img" src={pointsImage} alt="heart-health" />
-                    <p className="heading">Artistic Expression</p>
-                    <p className="content">Bringing stories and emotions to life through dance.</p>
+                    <p className="heading">Commitment to Excellence</p>
+                    <p className="content">Our unwavering commitment to excellence drives us to achieve perfection and precision in technique.</p>
                    </div>
                     <div className="outer-round">
                         <div className="inner-round"></div>
@@ -40,8 +40,8 @@ const Values = () => {
                 <div className="point-3">
                     <div className="d-flex flex-column align-items-center">
                     <img className="heading-img" src={pointsImage} alt="heart-health" />
-                    <p className="heading">Cultural Preservation</p>
-                    <p className="content">Upholding the beauty and traditions of South Indian classical dance.</p>
+                    <p className="heading">Empowering Artists</p>
+                    <p className="content">We empower our students to shine as exceptional artists, helping them reach their highest artistic potential.</p>
                     </div>
                     <div className="outer-round">
                         <div className="inner-round"></div>
@@ -50,8 +50,8 @@ const Values = () => {
                 <div className="point-4">
                     <div className="d-flex flex-column align-items-center">
                     <img className="heading-img" src={pointsImage} alt="heart-health" />
-                    <p className="heading">Personal Growth</p>
-                    <p className="content">Fostering self-confidence and discipline through dance.</p>
+                    <p className="heading">Thriving for excellence</p>
+                    <p className="content">We maintain a framework of high standards that ensures the growth and success of every dancer.</p>
                     </div>
                     <div className="outer-round">
                         <div className="inner-round"></div>
