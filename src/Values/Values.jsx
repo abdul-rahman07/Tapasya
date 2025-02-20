@@ -19,7 +19,9 @@ const Values = () => {
             <div className="values-point-list-container">
                 <div className="point-1">
                    <div className="d-flex flex-column align-items-center">
-                   <img className="heading-img" src={pointsImage} alt="heart-health" />
+                   <div className="headingImgcontainer">
+                    <img className="heading-img" src={pointsImage} alt="heart-health" />
+                   </div>
                     <p className="heading">Unlocking Potential</p>
                     <p className="content">We strive to unlock the full potential of every dancer by creating an environment that honors traditional dance forms.</p>
                    </div>

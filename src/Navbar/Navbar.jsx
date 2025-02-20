@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.scss"; // Add custom styles here if needed
-import logo from "../logo.svg"; // Replace with your logo's path
+import logo from "../assets/logo.png"; // Replace with your logo's path
 
 const Navbar = () => {
   return (
